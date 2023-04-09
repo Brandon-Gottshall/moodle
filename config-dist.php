@@ -38,12 +38,12 @@ $CFG = new stdClass();
 // will be stored.  This database must already have been created         //
 // and a username/password created to access it.                         //
 
-$CFG->dbtype    = '${MOODLE_DB_TYPE}';      // 'pgsql', 'mariadb', 'mysqli', 'auroramysql', 'sqlsrv' or 'oci'
+$CFG->dbtype    = 'PLACEHOLDER_DBTYPE';
 $CFG->dblibrary = 'native';     // 'native' only at the moment
-$CFG->dbhost    = '${MOODLE_DB_HOST}';  // eg 'localhost' or 'db.isp.com' or IP
-$CFG->dbname    = '${MOODLE_DB_NAME}';     // database name, eg moodle
-$CFG->dbuser    = '${MOODLE_DB_USER}';   // your database username
-$CFG->dbpass    = '${MOODLE_DB_PASSWORD}';   // your database password
+$CFG->dbhost    = 'PLACEHOLDER_DBHOST';
+$CFG->dbname    = 'PLACEHOLDER_DBNAME';
+$CFG->dbuser    = 'PLACEHOLDER_DBUSER';
+$CFG->dbpass    = 'PLACEHOLDER_DBPASS';
 $CFG->prefix    = 'mdl_';       // prefix to use for all table names
 $CFG->dboptions = array(
     'dbpersist' => false,       // should persistent database connections be
