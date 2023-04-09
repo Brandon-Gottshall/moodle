@@ -40,7 +40,7 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = '${MOODLE_DB_TYPE}';      // 'pgsql', 'mariadb', 'mysqli', 'auroramysql', 'sqlsrv' or 'oci'
 $CFG->dblibrary = 'native';     // 'native' only at the moment
-$CFG->dbhost    = 'localhost';  // eg 'localhost' or 'db.isp.com' or IP
+$CFG->dbhost    = '${MOODLE_DB_HOST}';  // eg 'localhost' or 'db.isp.com' or IP
 $CFG->dbname    = '${MOODLE_DB_NAME}';     // database name, eg moodle
 $CFG->dbuser    = '${MOODLE_DB_USER}';   // your database username
 $CFG->dbpass    = '${MOODLE_DB_PASSWORD}';   // your database password
